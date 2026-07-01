@@ -145,6 +145,9 @@ When the user wants a Skill output:
 - Produce a Skill brief first.
 - Ask for confirmation before writing `SKILL.md`.
 - If proceeding, use `skill-design-partner` or `skill-creator` conventions.
+- If the user wants to publish or share the resulting Skill on GitHub, use `publish-skill-to-github` before any generic GitHub publish flow.
+
+中文：如果用户要把产出的 Skill 发布到 GitHub、公开分享或做成仓库，先走 `publish-skill-to-github` 的 README、真实截图、许可证和验证检查，再提交推送。
 
 ## Final Summary
 
