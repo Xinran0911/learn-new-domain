@@ -2,11 +2,17 @@
 
 Learn any domain from verified top sources. Extract the essence. Build MECE frameworks. Package reusable methods.
 
+![Example output screenshot](assets/example-output.png)
+
+Actual output screenshot rendered from [`examples/agent-skills-output.md`](examples/agent-skills-output.md). This is a sample artifact, not a product poster.
+
 ## 中文简介
 
 `learn-new-domain` 是一个帮助你系统学习新领域的 Agent Skill。
 
 它不是让 AI “随便总结一下”，而是把学习过程工程化：
+
+**先找精华信息源，再分别解构、二次萃取、MECE 建模、多轮追问，最后封装成可复用教程、方法论或 Skill。**
 
 ```text
 确认学习领域
@@ -47,6 +53,17 @@ Use $learn-new-domain 帮我系统学习 Agent Skills。
 `learn-new-domain` is an agent skill for turning an unfamiliar field into a practical tutorial, methodology, checklist, playbook, or agent skill.
 
 It is not a generic summarizer. It is a source-first research and modeling workflow.
+
+## Core Selling Points / 核心卖点
+
+| Capability | What it means | 中文说明 |
+|---|---|---|
+| Verified top sources first | Start from official docs, specs, papers, source code, and canonical examples before synthesis | 先找最权威、最有信息密度的资料，而不是让模型凭记忆编教程 |
+| Separate deconstruction | Read top samples one by one before merging conclusions | 先逐篇拆解，避免一上来混在一起总结导致精华丢失 |
+| Second-order extraction | Extract principles, constraints, patterns, and failure modes behind the examples | 不只复述内容，而是萃取“为什么这样设计、什么情况下会失败” |
+| MECE modeling | Build layered structures with clear boundaries and non-overlapping categories | 把领域拆成不重不漏的框架，方便学习、复用和检查 |
+| Follow-up loop | Ask the user to challenge, deepen, and refine the artifact | 鼓励用户继续追问，把第一版打磨成真正可用的方法论 |
+| Reusable packaging | Turn the result into a tutorial, checklist, playbook, or `SKILL.md` | 最终沉淀为可复用资产，而不是一次性聊天记录 |
 
 ```text
 Confirm domain
@@ -89,6 +106,15 @@ It must not fabricate:
 - claims of official status
 
 If a source cannot be verified, it must be labeled as an unverified lead and excluded from evidence-based synthesis.
+
+## Maintainer Red Lines / 维护红线
+
+- Never add a `LICENSE` file or claim MIT, Apache, CC, proprietary, or any other license unless the owner explicitly chooses that exact license.
+- Never treat a marketing poster as a screenshot. Any image labeled screenshot or demo must be generated from a real output artifact, product screen, CLI run, or reproducible example.
+- Never present unverified links, stars, install counts, dates, authors, quotes, or official status as facts.
+- 不得默认添加开源许可证。许可证是授权动作，必须由仓库所有者明确选择。
+- 不得把产品宣传图冒充产出截图。截图必须来自真实输出、真实页面、真实命令行结果或可复现样例。
+- 不得把未经验证的信息源包装成事实。
 
 ## What It Produces
 
