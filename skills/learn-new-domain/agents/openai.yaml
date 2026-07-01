@@ -1,0 +1,4 @@
+interface:
+  display_name: "Learn New Domain"
+  short_description: "Source-first learning, MECE modeling, reusable output"
+  default_prompt: "Use $learn-new-domain to learn a new field from verified top sources and produce a practical tutorial or methodology."
