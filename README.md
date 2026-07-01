@@ -2,9 +2,9 @@
 
 Learn any domain from verified top sources. Extract the essence. Build MECE frameworks. Package reusable methods.
 
-![Example output screenshot](assets/example-output.png)
+![Actual Obsidian tutorial output screenshot](assets/obsidian-tutorial-output.png)
 
-Actual output screenshot rendered from [`examples/agent-skills-output.md`](examples/agent-skills-output.md). This is a sample artifact, not a product poster.
+Actual output screenshot from the Obsidian tutorial **《Skill 工程高阶手册》** produced while developing this workflow. This is the real artifact shape: source-driven tutorial, methodology extraction, MECE tables, examples, and reusable operating rules.
 
 ## 中文简介
 
