@@ -27,9 +27,9 @@ Actual output screenshot from the Obsidian tutorial **《Skill 工程高阶手�
 -> 必要时封装成 Agent Skill
 ```
 
-最重要的红线：**信息源不能造假。**
+最重要的可信原则：**信息源必须可验证。**
 
-不能编链接、作者、日期、引用、GitHub stars、安装量、benchmark 数据，也不能把模型记忆伪装成信息源。打不开或没验证的资料，只能标记为 `unverified lead`。
+不编链接、作者、日期、引用、GitHub stars、安装量、benchmark 数据，也不把模型记忆伪装成信息源。打不开或没验证的资料，只能标记为 `unverified lead`。
 
 ### 它适合做什么
 
@@ -54,7 +54,7 @@ Use $learn-new-domain 帮我系统学习 Agent Skills。
 
 It is not a generic summarizer. It is a source-first research and modeling workflow.
 
-## Core Selling Points / 核心卖点
+## Why It Works / 方法优势
 
 | Capability | What it means | 中文说明 |
 |---|---|---|
@@ -90,11 +90,11 @@ Most AI learning workflows fail in predictable ways:
 | No iteration | Stops after one draft | Prompts the user to ask follow-up questions and refine |
 | No reuse | Output becomes a one-off note | Packages results into tutorials, playbooks, checklists, or skills |
 
-## Red Line: No Fake Sources
+## Evidence Policy
 
 This skill is web-first and source-first.
 
-It must not fabricate:
+The workflow does not use unverifiable claims as evidence:
 
 - URLs
 - authors
@@ -106,15 +106,6 @@ It must not fabricate:
 - claims of official status
 
 If a source cannot be verified, it must be labeled as an unverified lead and excluded from evidence-based synthesis.
-
-## Maintainer Red Lines / 维护红线
-
-- Never add a `LICENSE` file or claim MIT, Apache, CC, proprietary, or any other license unless the owner explicitly chooses that exact license.
-- Never treat a marketing poster as a screenshot. Any image labeled screenshot or demo must be generated from a real output artifact, product screen, CLI run, or reproducible example.
-- Never present unverified links, stars, install counts, dates, authors, quotes, or official status as facts.
-- 不得默认添加开源许可证。许可证是授权动作，必须由仓库所有者明确选择。
-- 不得把产品宣传图冒充产出截图。截图必须来自真实输出、真实页面、真实命令行结果或可复现样例。
-- 不得把未经验证的信息源包装成事实。
 
 ## What It Produces
 
