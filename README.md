@@ -166,4 +166,8 @@ Do not use this skill for:
 
 ## License
 
-MIT
+No license has been granted yet.
+
+Copyright (c) 2026 Xinran Jiang. All rights reserved until an explicit license is chosen and added to this repository.
+
+未授权开源许可证。除非后续明确添加许可证，否则默认保留所有权利。
