@@ -2,6 +2,48 @@
 
 Learn any domain from verified top sources. Extract the essence. Build MECE frameworks. Package reusable methods.
 
+## 中文简介
+
+`learn-new-domain` 是一个帮助你系统学习新领域的 Agent Skill。
+
+它不是让 AI “随便总结一下”，而是把学习过程工程化：
+
+```text
+确认学习领域
+-> 确认输出形式
+-> 联网寻找高质量信息源
+-> 让用户确认信息源
+-> 分别解读 Top 样本
+-> 二次萃取核心原则
+-> 建立 MECE 框架
+-> 反复追问、补洞、压测
+-> 打磨成教程 / 方法论 / 清单 / Playbook
+-> 必要时封装成 Agent Skill
+```
+
+最重要的红线：**信息源不能造假。**
+
+不能编链接、作者、日期、引用、GitHub stars、安装量、benchmark 数据，也不能把模型记忆伪装成信息源。打不开或没验证的资料，只能标记为 `unverified lead`。
+
+### 它适合做什么
+
+- 快速进入一个陌生领域
+- 从官方文档、论文、源码、经典资料中提炼框架
+- 把碎片资料整理成高阶教程
+- 把复杂领域建模成 MECE 结构
+- 产出方法论、学习路径、实操清单
+- 把学习结果继续封装成 Agent Skill
+
+### 中文使用示例
+
+```text
+Use $learn-new-domain 帮我系统学习 Agent Skills。
+请先联网找最权威的信息源，让我确认后，再萃取核心原则，
+最后输出一篇高阶教程和方法论框架。
+```
+
+---
+
 `learn-new-domain` is an agent skill for turning an unfamiliar field into a practical tutorial, methodology, checklist, playbook, or agent skill.
 
 It is not a generic summarizer. It is a source-first research and modeling workflow.
